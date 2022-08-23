@@ -1,0 +1,127 @@
+.main {
+  background-image: url("../../../public/glassesImage/background.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+  position: relative;
+}
+.overlay {
+  background: rgba(39, 43, 54, 0.5);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.heading {
+  background-color: black;
+  opacity: 0.7;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.container .row {
+  justify-content: space-between !important;
+  margin: auto;
+}
+.container .row .col-4 {
+  margin-left: 110px;
+}
+.container .row .col-4 .card__left {
+  position: absolute;
+  /* left: 200px; */
+}
+
+.container .row .col-4 .card__left .glasses__model {
+  background-image: url("../../../public//glassesImage/model.jpg");
+  background-position: center top;
+  background-size: cover;
+  height: 50vh;
+  width: 300px;
+}
+.card__left .glasses__model img {
+  position: absolute;
+  top: 25%;
+  left: 23%;
+  width: 160px;
+  height: 56px;
+  opacity: 0.8;
+  /* display: block; */
+}
+.container .row .col-4 .card__left .glasses__info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #ff6c06;
+  width: 100%;
+  color: white;
+  padding: 5px;
+  /* display: block; */
+  opacity: 0.8;
+}
+.card__left .glasses__info h4 {
+  color: #0026ff;
+  font-weight: 700;
+}
+.card__left .glasses__info span {
+  background-color: red;
+}
+.container .row .col-4 .card__right {
+  position: absolute;
+}
+.container .row .col-4 .card__right .glasses__model {
+  background-image: url("../../../public//glassesImage/model.jpg");
+  background-position: center top;
+  background-size: cover;
+  height: 50vh;
+  width: 300px;
+}
+.container .row .col-4 .card__right .glasses__model img {
+  position: absolute;
+  top: 25%;
+  left: 23%;
+  width: 160px;
+  height: 56px;
+  opacity: 0.8;
+  /* display: none; */
+}
+.container .row .col-4 .card__right .glasses__info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #ff6c06;
+  width: 100%;
+  color: white;
+  padding: 5px;
+  /* display: none; */
+  opacity: 0.8;
+
+}
+
+.card__right .glasses__info h4 {
+  color: #0026ff;
+  font-weight: 700;
+}
+.card__right .glasses__info span {
+  background-color: red;
+}
+.container .row .col-12 .card__bottom {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  bottom: 30px;
+  left: 0;
+  position: absolute;
+  margin: 0 100px;
+}
+.container .row .col-12 .card__bottom .row {
+  align-self: center;
+  justify-content: left !important;
+}
+
+.glasses__items {
+  cursor: pointer;
+}
